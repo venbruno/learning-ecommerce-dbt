@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: public
+    database: postgres
+    tables:
+      - name: order_items
+      - name: products
+      - name: customers
+      - name: locations
